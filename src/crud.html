@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY RECIPE</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="photon.min.css" />
+</head>
+<body>
+  <div class="mainWrapper">
+    <h1 class="titleh1">My recipe</h1>
+    <form>
+      <div class="form-group">
+        <label>Date</label>
+        <input id="date" type="date" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Meal Type</label>
+        <input id="mealType" type="text" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Recipe Name</label>
+        <input id="recipeName" type="text" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Recipe Content</label>
+        <textarea id="recipeContents" class="form-control" rows="5"></textarea>
+      </div>
+    </form>
+    <button id="btnCreate" class="btn btn-default">Create Recipe</button>
+    <button id="btnRead" class="btn btn-default">Read Recipe</button>
+    <button id="btnUpdate" class="btn btn-default">Update Recipe</button>
+    <button id="btnDelete" class="btn btn-default">Delete Recipe</button>
+  </div>
+
+  <script src="crud.js"></script>
+</body>
+</html>

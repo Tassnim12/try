@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Meal For Your Ingredients</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" crossorigin="anonymous" />
+
+  <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+  
+  <div class = "container">
+    <div class = "mealwrapper">
+      <div class = "mealsearch">
+        <img class="meal" src="meal.jpg">
+        <h2 class = "title">Meal planner</h2>
+        <p>A recipe is a story that ends with good meal.<p>
+
+        <div class = "mealsearch_box">
+          <input type = "text" class = "searchcontrol" placeholder="Enter an ingredient" id = "searchinput">
+          <button type = "submit" class = "searchbtn btn" id = "searchbtn">
+            <i class = "fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class = "mealresult">
+        <h2 class = "title">Your Search Results:</h2>
+        <div id= "meal">
+
+        </div>
+      </div>
+      <h3>Has any interested recipe?</h3>
+      <a class="mypage"  href="crud.html">MY RECIPE</a>
+
+      <div class = "mealdetails">
+        <!-- recipe close btn -->
+        <button type = "button" class = "btn recclose_btn" id = "recclose_btn">
+          <i class = "fas fa-times"></i>
+        </button>
+
+        <!-- meal content -->
+        <div class = "mealdetails_content">
+ 
+        </div>
+      </div>
+    </div>
+  </div> 
+
+
+  <script src = "script.js"></script>
+  <script src="crud.js"></script>
+</body>
+</html>
